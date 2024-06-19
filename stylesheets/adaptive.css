@@ -1,0 +1,366 @@
+@media screen and (min-width: 1920px) {
+  
+}
+
+@media screen and (min-width: 1365px) and (max-width: 1919px) {
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .manifest {
+        top: 6vw;
+    }
+    
+    .products {
+        top: 19vw;
+    }
+    
+    .book {
+        top: 8vw;
+    }
+    
+    .anons {
+        top: 24vw;
+    }
+    
+    .promo {
+        top: 47vw;
+    }
+    
+    .contact {
+        top: 38vw;
+    }
+    
+    .web {
+        top: 55vw;
+    }
+
+
+    .cover_description {
+        top: 12vw;
+    }
+
+    .productdiv {
+        font-size: 13px;
+        margin-top: 7vw;
+    }
+
+    .cart_table, .delivery-radio, .book_description, .contact {
+        font-size: 13px;
+    }
+
+    .coloumn-item {
+        margin-top: 3vw;
+        font-size: 13px;
+    }
+
+    .book-cover img{
+        width: 35vw;
+    }
+
+    .pages img{
+        width: 46vw;
+    }
+
+    #cover, .poster {
+        width: 34vw;
+    }
+    
+    #razvorot {
+        width: 60vw;
+    }
+
+    .poster_description {
+        top: 12vw;
+    }
+
+    .vk {
+        top: 7vw;
+        left: 15vw;
+    }
+    
+    .email {
+        top: 15vw;
+    }
+    
+    .adress {
+        top: 40vw;
+    }
+
+    .name {
+        font-size: 13px;
+        left: 3vw;
+        line-height: 2vw;
+    }
+
+    .name p{
+        line-height: 2vw;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .name {
+        top: 2vw;
+        font-size: 13px;
+    }
+
+    .manifest {
+        width: 40vw;
+        top: 15vw;
+    }
+    
+    .products {
+        width: 32vw;
+        top: 80vw;
+        left: 20vw;
+    }
+    
+    .book {
+        width: 30vw;
+        top: 15vw;
+    }
+    
+    .anons {
+        width: 32vw;
+        top: 50vw;
+        left: 50vw;
+    }
+    
+    .promo {
+        left: 5vw;
+        width: 30vw;
+        top: 130vw;
+    }
+    
+    .contact {
+        width: 35vw;
+        top: 95vw;
+        left: 60vw;
+    }
+    
+    .web {
+        width: 33vw;
+        top: 155vw;
+        left: 48vw;
+    }
+
+    .plus, .corner  {
+        display: none;
+    }
+
+    .manifestmobile,  .bookmobile, .anonsmobile {
+        top: 175vw;
+    }
+
+    .cover_description, .poster_description {
+        top: 30vw;
+        width: auto;
+        left: 10vw;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    .book_description {
+        left: 0;
+        top: 5vw;
+        font-size: 13px;
+    }
+
+    .book-cover img{
+        width: 80vw;
+    }
+
+    .book-cover{
+        left: 0;
+        align-items:start;
+    }
+
+    .pages {
+        padding: 0;
+        width: 80vw;
+    }
+
+    .coloumn {
+        margin-left: 2vw;
+        width: 92%;
+        margin-top: 4vw;
+    }
+
+    .coloumn-item {
+        width: 22%;
+        margin-top: 3vw;
+        font-size: 11px;
+    }
+
+    #cover {
+        width: 80vw;
+        margin-left: -1vw;
+    }
+    
+    #razvorot {
+        width: 80vw;
+    }
+
+    .backwards , .forwards, .prev, .next {
+        font-size: 20px;
+    }
+
+    .poster {
+        width: 80vw;
+    }
+
+    .contact{
+        font-size: 13px;
+    }
+
+    .vk {
+        top: 15vw;
+        left: 15vw;
+    }
+    
+    .email {
+        top: 25vw;
+    }
+    
+    .adress {
+        top: 40vw;
+    }
+
+    .productdiv {
+        width: auto;
+        font-size: 13px;
+        margin-top: 7vw;
+    }
+
+
+    .cart_table {
+        font-size: 13px;
+    }
+
+    .delivery-radio{
+        font-size: 13px;
+    }
+
+    .add {
+        height: 4vw;
+    }
+
+    .stickers {
+        width: 47vw;
+        left: 2vw;
+    }
+
+    .sticker_text {
+        left: 2vw;
+        top: 60vw;
+        width: 47vw;
+    }
+    
+    .postcard {
+        top: 10vw;
+        width: 47vw;
+        left: 51vw;
+    }
+
+    .postcard_text {
+        top: 65vw;
+        width: 47vw;
+        left: 51vw;
+    }
+    
+    .shirt{
+        width: 47vw;
+        top: 140vw;
+        left: 51vw;
+    }
+
+    .shirt_text{
+        width: 47vw;
+        top: 200vw;
+        left: 51vw;
+    }
+    
+    .flag {
+        width: 75vw;
+        top: 75vw;
+        left: 2vw;
+    }
+
+    .flag_text {
+        width: 75vw;
+        top: 132vw;
+        left: 2vw;
+    }
+    
+    .disk {
+        width: 47vw;
+        top: 150vw;
+        left: 2vw;
+    }
+
+    .disk_text {
+        width: 47vw;
+        top: 182vw;
+        left: 2vw;
+    }
+
+    .productsmobile {
+        top: 90vw;
+        left: 67vw;
+    }
+
+    .cart {
+        top: 2vw;
+        left: 51vw;
+    }
+
+    table {
+        width: 95vw;
+        top: 5vw;
+    }
+
+    th, td {
+        font-size: 3.5vw;
+    }
+
+    .delivery {
+        margin-top: 9vw;
+        margin-left: 2vw;
+        width: 95vw;
+    }
+
+    select, input {
+        width: 25%;
+        height: 5vw;
+        padding: 1vw;
+        font-size: 3.5vw;
+    }
+
+    .delivery-radio {
+        margin-top: 5vw;
+        margin-left: 2vw;
+    }
+
+    .delivery-radio label, .delivery-radio p{
+        font-size: 3.5vw;
+    }
+
+    .oformit{
+        width: 40vw;
+        height: 6vw;
+        margin-left: 2vw;
+    }
+    
+    .oformlenie {
+        font-size: 3.5vw;
+        width: 40vw;
+        height: 6vw;
+        padding: 1vw;
+        line-height: 3vw;
+        text-align: center;
+    }
+    
+}
