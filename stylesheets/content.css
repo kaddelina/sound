@@ -1,6 +1,7 @@
 *{ box-sizing: border-box;}
 html, body{ height: 100%;
-overflow-x: hidden;}
+overflow-x: hidden;
+background-color: white;}
 
 
 @font-face {
@@ -152,8 +153,10 @@ a{
 }
 
 .contact {
+    width: 15vw;
     top: 30vw;
     left: 45vw;
+    border: none;
 }
 
 .web {
@@ -258,13 +261,14 @@ a{
     margin-top: 3vw;
 }
 
+
 .coloumn-item {
     display: inline-block;
     width: 14vw;
     vertical-align: top;
 }
 
-.contact {
+.contactus {
     display: block;
     position: absolute;
 }
@@ -426,29 +430,6 @@ a{
     color: black;
 }
 
-/* .modal {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 10;
-    display: none;
-    justify-content: center;
-}
-
-.error_modal {
-    position: relative;
-    margin: auto;
-    background-color: white;
-    width: 60vw;
-    height: 40vw;
-    z-index: 11;
-    display: flex;
-    justify-content: center;
-    border-radius: 2%;
-    animation-name: popup;
-    animation-duration: 0.6s;
-} */
 
 .error_modal_pic{
     margin-left: 3vw;
@@ -597,30 +578,6 @@ tr * {
 }
 
 
-/* 
-@keyframes fall {
-    from {
-        transform: translateY(-100vh);
-    }
-    to {
-        transform: translateY(100vh);
-    }
-}
-
-@keyframes roll {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes popup {
-    from {top:-35vw;}
-    to {bottom: 0;}
-} */
-
 select, input {
     display: block;
     width: 15vw;
@@ -717,11 +674,6 @@ input[type="radio"]:checked+.custom-radio {
         transform: translateY(calc(-100% + 2px)) scale(0.8);
     }
 }
-
-/* .oformlenie:hover {
-    background-color: black;
-    color: white;
-} */
 
 .overlay {
     background-color:black;

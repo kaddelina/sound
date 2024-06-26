@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     element.style.top = `${e.clientY - offsetY}px`;
                     hasMoved = true;
 
-                    // Создание элемента следа
                     const trail = document.createElement('div');
                     trail.classList.add('trail');
                     trail.style.left = `${e.clientX - offsetX}px`;
@@ -32,6 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     console.log('Creating trail at', e.clientX - offsetX, e.clientY - offsetY);
                 }
+
+
+
             };
 
             const onMouseUp = () => {
@@ -40,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     element.style.zIndex = 5;
                     document.removeEventListener('mousemove', onMouseMove);
                     document.removeEventListener('mouseup', onMouseUp);
+
 
                     if (!hasMoved) {
                         elements.forEach(el => {
@@ -52,12 +55,16 @@ document.addEventListener("DOMContentLoaded", () => {
                             window.location.href = element.parentElement.href;
                         }, 500);
                     }
+
                 }
             };
+
+
 
             document.addEventListener('mousemove', onMouseMove);
             document.addEventListener('mouseup', onMouseUp);
         });
+        
 
         element.addEventListener('dragstart', (e) => {
             e.preventDefault();

@@ -1,5 +1,3 @@
-//write here your js
-
 window.addEventListener('load', function(){
     const preload = document.querySelector('.preload');
     preload.classList.add("preload-finish");
@@ -159,9 +157,11 @@ let Engine = Matter.Engine,
 
 let engine = Engine.create();
 
-// присваиваем ширине и высоте ширину и высоту окна браузера для создания рамок
+
 let width = window.innerWidth;
 let height = window.innerHeight;
+
+
 
 let render = Render.create({
 element: document.querySelector(".falling_rocks"), //база – это готовый див в html
@@ -191,7 +191,7 @@ return Bodies.circle(x, y, radius, {
 });
 }
 
-// (x,y,размер,картинка, масштаб), первоначальное положение – за пределами окна браузера
+//за пределами окна браузера
 let rocks = [
 createRock(60, -300, 150, "./img/falling1.png", 0.7), 
 createRock(360, -200, 150, "./img/falling2.png", 0.7),
@@ -209,8 +209,7 @@ createRock(1100, -700, 150, "./img/falling6.png", 0.85),
 createRock(1200, -400, 150, "./img/falling7.png", 0.7),
 ];
 
-
-// невидимый пол по границе с окном браузера
+//границы
 let ground = Bodies.rectangle(width/2, height, width, 60, { 
 isStatic: true,
 render: {
@@ -218,7 +217,7 @@ render: {
 }
 });
 
-// невидимая левая грань по границе с окном браузера
+
 let leftWall = Bodies.rectangle(0, height/2, 60, height, { 
     isStatic: true,
     render: {
@@ -226,7 +225,7 @@ let leftWall = Bodies.rectangle(0, height/2, 60, height, {
     }
 });
 
-// невидимая правая грань по границе с окном браузера
+
 let rightWall = Bodies.rectangle(width, height/2, 60, height, { 
     isStatic: true,
     render: {
@@ -234,7 +233,6 @@ let rightWall = Bodies.rectangle(width, height/2, 60, height, {
     }
 });
 
-// создали и добавляем в мир
 World.add(engine.world, rocks);
 World.add(engine.world, ground);
 World.add(engine.world, leftWall);
@@ -264,12 +262,6 @@ document.querySelector('.vk').addEventListener('click', () => {
     Matter.Body.setStatic(rock, false);
 });
 });
-
-// запуск действия по клику на ссылку на соцсети 
-// document.querySelector('.vk').addEventListener('click', () => {
-// document.querySelector('.falling_rocks').style.pointerEvents = 'all';
-// });
-
 
 
 });
